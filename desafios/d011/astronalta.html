@@ -6,21 +6,34 @@
     <title>Espaço</title>
     <link rel="shortcut icon" href="imagens/favicon-nerdface.ico" type="image/x-icon">
     <style>
+
         body {
+            
             background-color: black;
             background-image: url(imagens/espaco.jpg);
-            background-position: center;
+            height: 98vh;
+            background-repeat: no-repeat;
+            background-position: center center;
             background-size: cover;
         }
 
-        div {
+        img {
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            background-size: 100% 100%;
             
+            right: 50%;
+            bottom: 50%;
+
+            transform: translate(50%, 50%);
         }
+        
     </style>
 </head>
+
 <body>
-    <div>
-        <img src="imagens/astronauta.png" alt="Astronalta">
-    </div>
+    <img src="imagens/astronauta.png" alt="">
 </body>
+
 </html>
